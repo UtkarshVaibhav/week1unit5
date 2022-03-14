@@ -4,3 +4,6 @@ ul li{
 .checkDiv{
   display: flex;
 }
+button{
+  margin: 0px 10px;
+}

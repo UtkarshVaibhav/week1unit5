@@ -3,8 +3,11 @@ import React,{useState} from 'react'
 export const Input = ({list,setList}) => {
     const [value,setValue]=useState("");
     const addFun=()=>{
+      if(value!=="")
+      {
         setList([...list,value]);
         setValue("");
+      }
 }
   return (
     <div>

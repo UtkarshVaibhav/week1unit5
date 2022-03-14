@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import style from './App.module.css';
+import style from './App.css';
 import { Vegetables } from './components/Vegetables';
 import { Wishlist } from './components/Wishlist';
 
